@@ -1,0 +1,1659 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-07-02T08:37:05.084835400Z</date>
+  <millis>1688287025084</millis>
+  <nanos>835400</nanos>
+  <sequence>0</sequence>
+  <logger>boot.Main</logger>
+  <level>INFO</level>
+  <class>boot.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2023-07-02T08:37:05.886335500Z</date>
+  <millis>1688287025886</millis>
+  <nanos>335500</nanos>
+  <sequence>1</sequence>
+  <logger>io.XmlWriter</logger>
+  <level>INFO</level>
+  <class>io.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling started</message>
+</record>
+<record>
+  <date>2023-07-02T08:37:05.891835400Z</date>
+  <millis>1688287025891</millis>
+  <nanos>835400</nanos>
+  <sequence>2</sequence>
+  <logger>io.XmlWriter</logger>
+  <level>SEVERE</level>
+  <class>io.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling failed</message>
+  <exception>
+    <message>javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]</message>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>newInstance</method>
+      <line>232</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>find</method>
+      <line>375</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>691</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>632</line>
+    </frame>
+    <frame>
+      <class>io.XmlWriter</class>
+      <method>generateXmlReq</method>
+      <line>28</line>
+    </frame>
+    <frame>
+      <class>boot.Main</class>
+      <method>main</method>
+      <line>60</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-07-02T08:37:05.893838700Z</date>
+  <millis>1688287025893</millis>
+  <nanos>838700</nanos>
+  <sequence>3</sequence>
+  <logger>io.JsonWriter</logger>
+  <level>INFO</level>
+  <class>io.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing started</message>
+</record>
+<record>
+  <date>2023-07-02T08:37:05.894839Z</date>
+  <millis>1688287025894</millis>
+  <nanos>839000</nanos>
+  <sequence>4</sequence>
+  <logger>io.JsonWriter</logger>
+  <level>INFO</level>
+  <class>io.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>Directory created successfully</message>
+</record>
+<record>
+  <date>2023-07-02T08:37:05.940838Z</date>
+  <millis>1688287025940</millis>
+  <nanos>838000</nanos>
+  <sequence>5</sequence>
+  <logger>io.JsonWriter</logger>
+  <level>INFO</level>
+  <class>io.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T08:37:05.941337200Z</date>
+  <millis>1688287025941</millis>
+  <nanos>337200</nanos>
+  <sequence>6</sequence>
+  <logger>boot.Main</logger>
+  <level>INFO</level>
+  <class>boot.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-07-02T08:38:37.160708400Z</date>
+  <millis>1688287117160</millis>
+  <nanos>708400</nanos>
+  <sequence>0</sequence>
+  <logger>boot.Main</logger>
+  <level>INFO</level>
+  <class>boot.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2023-07-02T08:38:37.950210500Z</date>
+  <millis>1688287117950</millis>
+  <nanos>210500</nanos>
+  <sequence>1</sequence>
+  <logger>io.XmlWriter</logger>
+  <level>INFO</level>
+  <class>io.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling started</message>
+</record>
+<record>
+  <date>2023-07-02T08:38:37.956708300Z</date>
+  <millis>1688287117956</millis>
+  <nanos>708300</nanos>
+  <sequence>2</sequence>
+  <logger>io.XmlWriter</logger>
+  <level>SEVERE</level>
+  <class>io.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling failed</message>
+  <exception>
+    <message>javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]</message>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>newInstance</method>
+      <line>232</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>find</method>
+      <line>375</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>691</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>632</line>
+    </frame>
+    <frame>
+      <class>io.XmlWriter</class>
+      <method>generateXmlReq</method>
+      <line>28</line>
+    </frame>
+    <frame>
+      <class>boot.Main</class>
+      <method>main</method>
+      <line>60</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-07-02T08:38:37.958708800Z</date>
+  <millis>1688287117958</millis>
+  <nanos>708800</nanos>
+  <sequence>3</sequence>
+  <logger>io.JsonWriter</logger>
+  <level>INFO</level>
+  <class>io.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing started</message>
+</record>
+<record>
+  <date>2023-07-02T08:38:38.004709300Z</date>
+  <millis>1688287118004</millis>
+  <nanos>709300</nanos>
+  <sequence>4</sequence>
+  <logger>io.JsonWriter</logger>
+  <level>INFO</level>
+  <class>io.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T08:38:38.005208300Z</date>
+  <millis>1688287118005</millis>
+  <nanos>208300</nanos>
+  <sequence>5</sequence>
+  <logger>boot.Main</logger>
+  <level>INFO</level>
+  <class>boot.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-07-02T08:43:22.412288700Z</date>
+  <millis>1688287402412</millis>
+  <nanos>288700</nanos>
+  <sequence>0</sequence>
+  <logger>boot.Main</logger>
+  <level>INFO</level>
+  <class>boot.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2023-07-02T08:43:22.453788900Z</date>
+  <millis>1688287402453</millis>
+  <nanos>788900</nanos>
+  <sequence>1</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-07-02T08:43:22.977288900Z</date>
+  <millis>1688287402977</millis>
+  <nanos>288900</nanos>
+  <sequence>2</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T08:43:22.979288800Z</date>
+  <millis>1688287402979</millis>
+  <nanos>288800</nanos>
+  <sequence>3</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-07-02T08:43:23.009290Z</date>
+  <millis>1688287403009</millis>
+  <nanos>290000</nanos>
+  <sequence>4</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T08:43:23.021290900Z</date>
+  <millis>1688287403021</millis>
+  <nanos>290900</nanos>
+  <sequence>5</sequence>
+  <logger>io.XlsWriter</logger>
+  <level>INFO</level>
+  <class>io.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2023-07-02T08:43:23.160789900Z</date>
+  <millis>1688287403160</millis>
+  <nanos>789900</nanos>
+  <sequence>6</sequence>
+  <logger>io.XlsWriter</logger>
+  <level>INFO</level>
+  <class>io.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T08:43:23.162289700Z</date>
+  <millis>1688287403162</millis>
+  <nanos>289700</nanos>
+  <sequence>7</sequence>
+  <logger>io.XmlWriter</logger>
+  <level>INFO</level>
+  <class>io.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling started</message>
+</record>
+<record>
+  <date>2023-07-02T08:43:23.168289400Z</date>
+  <millis>1688287403168</millis>
+  <nanos>289400</nanos>
+  <sequence>8</sequence>
+  <logger>io.XmlWriter</logger>
+  <level>SEVERE</level>
+  <class>io.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling failed</message>
+  <exception>
+    <message>javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]</message>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>newInstance</method>
+      <line>232</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>find</method>
+      <line>375</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>691</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>632</line>
+    </frame>
+    <frame>
+      <class>io.XmlWriter</class>
+      <method>generateXmlReq</method>
+      <line>28</line>
+    </frame>
+    <frame>
+      <class>boot.Main</class>
+      <method>main</method>
+      <line>60</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-07-02T08:43:23.169789200Z</date>
+  <millis>1688287403169</millis>
+  <nanos>789200</nanos>
+  <sequence>9</sequence>
+  <logger>io.JsonWriter</logger>
+  <level>INFO</level>
+  <class>io.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing started</message>
+</record>
+<record>
+  <date>2023-07-02T08:43:23.235289400Z</date>
+  <millis>1688287403235</millis>
+  <nanos>289400</nanos>
+  <sequence>10</sequence>
+  <logger>io.JsonWriter</logger>
+  <level>INFO</level>
+  <class>io.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T08:43:23.235789800Z</date>
+  <millis>1688287403235</millis>
+  <nanos>789800</nanos>
+  <sequence>11</sequence>
+  <logger>boot.Main</logger>
+  <level>INFO</level>
+  <class>boot.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-07-02T08:44:57.680084500Z</date>
+  <millis>1688287497680</millis>
+  <nanos>84500</nanos>
+  <sequence>0</sequence>
+  <logger>boot.Main</logger>
+  <level>INFO</level>
+  <class>boot.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2023-07-02T08:44:57.718583800Z</date>
+  <millis>1688287497718</millis>
+  <nanos>583800</nanos>
+  <sequence>1</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-07-02T08:44:58.241583400Z</date>
+  <millis>1688287498241</millis>
+  <nanos>583400</nanos>
+  <sequence>2</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T08:44:58.244083100Z</date>
+  <millis>1688287498244</millis>
+  <nanos>83100</nanos>
+  <sequence>3</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-07-02T08:44:58.275084400Z</date>
+  <millis>1688287498275</millis>
+  <nanos>84400</nanos>
+  <sequence>4</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T08:44:58.278084Z</date>
+  <millis>1688287498278</millis>
+  <nanos>84000</nanos>
+  <sequence>5</sequence>
+  <logger>utils.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>utils.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module started</message>
+</record>
+<record>
+  <date>2023-07-02T08:44:58.289083400Z</date>
+  <millis>1688287498289</millis>
+  <nanos>83400</nanos>
+  <sequence>6</sequence>
+  <logger>utils.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>utils.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 2 statistical objects</message>
+</record>
+<record>
+  <date>2023-07-02T08:44:58.290585400Z</date>
+  <millis>1688287498290</millis>
+  <nanos>585400</nanos>
+  <sequence>7</sequence>
+  <logger>io.XlsWriter</logger>
+  <level>INFO</level>
+  <class>io.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2023-07-02T08:44:58.458084300Z</date>
+  <millis>1688287498458</millis>
+  <nanos>84300</nanos>
+  <sequence>8</sequence>
+  <logger>io.XlsWriter</logger>
+  <level>INFO</level>
+  <class>io.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T08:44:58.460586600Z</date>
+  <millis>1688287498460</millis>
+  <nanos>586600</nanos>
+  <sequence>9</sequence>
+  <logger>io.XmlWriter</logger>
+  <level>INFO</level>
+  <class>io.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling started</message>
+</record>
+<record>
+  <date>2023-07-02T08:44:58.467584100Z</date>
+  <millis>1688287498467</millis>
+  <nanos>584100</nanos>
+  <sequence>10</sequence>
+  <logger>io.XmlWriter</logger>
+  <level>SEVERE</level>
+  <class>io.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling failed</message>
+  <exception>
+    <message>javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]</message>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>newInstance</method>
+      <line>232</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>find</method>
+      <line>375</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>691</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>632</line>
+    </frame>
+    <frame>
+      <class>io.XmlWriter</class>
+      <method>generateXmlReq</method>
+      <line>28</line>
+    </frame>
+    <frame>
+      <class>boot.Main</class>
+      <method>main</method>
+      <line>60</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-07-02T08:44:58.469585Z</date>
+  <millis>1688287498469</millis>
+  <nanos>585000</nanos>
+  <sequence>11</sequence>
+  <logger>io.JsonWriter</logger>
+  <level>INFO</level>
+  <class>io.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing started</message>
+</record>
+<record>
+  <date>2023-07-02T08:44:58.545083800Z</date>
+  <millis>1688287498545</millis>
+  <nanos>83800</nanos>
+  <sequence>12</sequence>
+  <logger>io.JsonWriter</logger>
+  <level>INFO</level>
+  <class>io.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T08:44:58.546087400Z</date>
+  <millis>1688287498546</millis>
+  <nanos>87400</nanos>
+  <sequence>13</sequence>
+  <logger>boot.Main</logger>
+  <level>INFO</level>
+  <class>boot.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-07-02T08:46:42.613454600Z</date>
+  <millis>1688287602613</millis>
+  <nanos>454600</nanos>
+  <sequence>0</sequence>
+  <logger>boot.Main</logger>
+  <level>INFO</level>
+  <class>boot.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2023-07-02T08:46:42.652955100Z</date>
+  <millis>1688287602652</millis>
+  <nanos>955100</nanos>
+  <sequence>1</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-07-02T08:46:43.191453Z</date>
+  <millis>1688287603191</millis>
+  <nanos>453000</nanos>
+  <sequence>2</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T08:46:43.200452300Z</date>
+  <millis>1688287603200</millis>
+  <nanos>452300</nanos>
+  <sequence>3</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-07-02T08:46:43.231953200Z</date>
+  <millis>1688287603231</millis>
+  <nanos>953200</nanos>
+  <sequence>4</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T08:46:43.236952400Z</date>
+  <millis>1688287603236</millis>
+  <nanos>952400</nanos>
+  <sequence>5</sequence>
+  <logger>utils.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>utils.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module started</message>
+</record>
+<record>
+  <date>2023-07-02T08:46:43.247453300Z</date>
+  <millis>1688287603247</millis>
+  <nanos>453300</nanos>
+  <sequence>6</sequence>
+  <logger>utils.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>utils.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 2 statistical objects</message>
+</record>
+<record>
+  <date>2023-07-02T08:46:43.249952600Z</date>
+  <millis>1688287603249</millis>
+  <nanos>952600</nanos>
+  <sequence>7</sequence>
+  <logger>io.XlsWriter</logger>
+  <level>INFO</level>
+  <class>io.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2023-07-02T08:46:43.396455600Z</date>
+  <millis>1688287603396</millis>
+  <nanos>455600</nanos>
+  <sequence>8</sequence>
+  <logger>io.XlsWriter</logger>
+  <level>INFO</level>
+  <class>io.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T08:46:43.400951700Z</date>
+  <millis>1688287603400</millis>
+  <nanos>951700</nanos>
+  <sequence>9</sequence>
+  <logger>io.XmlWriter</logger>
+  <level>INFO</level>
+  <class>io.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling started</message>
+</record>
+<record>
+  <date>2023-07-02T08:46:43.406452900Z</date>
+  <millis>1688287603406</millis>
+  <nanos>452900</nanos>
+  <sequence>10</sequence>
+  <logger>io.XmlWriter</logger>
+  <level>SEVERE</level>
+  <class>io.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling failed</message>
+  <exception>
+    <message>javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]</message>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>newInstance</method>
+      <line>232</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>find</method>
+      <line>375</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>691</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>632</line>
+    </frame>
+    <frame>
+      <class>io.XmlWriter</class>
+      <method>generateXmlReq</method>
+      <line>28</line>
+    </frame>
+    <frame>
+      <class>boot.Main</class>
+      <method>main</method>
+      <line>60</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-07-02T08:46:43.409452400Z</date>
+  <millis>1688287603409</millis>
+  <nanos>452400</nanos>
+  <sequence>11</sequence>
+  <logger>io.JsonWriter</logger>
+  <level>INFO</level>
+  <class>io.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing started</message>
+</record>
+<record>
+  <date>2023-07-02T08:46:43.474453400Z</date>
+  <millis>1688287603474</millis>
+  <nanos>453400</nanos>
+  <sequence>12</sequence>
+  <logger>io.JsonWriter</logger>
+  <level>INFO</level>
+  <class>io.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T08:46:43.474953700Z</date>
+  <millis>1688287603474</millis>
+  <nanos>953700</nanos>
+  <sequence>13</sequence>
+  <logger>boot.Main</logger>
+  <level>INFO</level>
+  <class>boot.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-07-02T08:49:54.516676900Z</date>
+  <millis>1688287794516</millis>
+  <nanos>676900</nanos>
+  <sequence>0</sequence>
+  <logger>boot.Main</logger>
+  <level>INFO</level>
+  <class>boot.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2023-07-02T08:49:54.550676100Z</date>
+  <millis>1688287794550</millis>
+  <nanos>676100</nanos>
+  <sequence>1</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-07-02T08:49:55.181177100Z</date>
+  <millis>1688287795181</millis>
+  <nanos>177100</nanos>
+  <sequence>2</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T08:49:55.183179300Z</date>
+  <millis>1688287795183</millis>
+  <nanos>179300</nanos>
+  <sequence>3</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-07-02T08:49:55.219677800Z</date>
+  <millis>1688287795219</millis>
+  <nanos>677800</nanos>
+  <sequence>4</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T08:49:55.221677Z</date>
+  <millis>1688287795221</millis>
+  <nanos>677000</nanos>
+  <sequence>5</sequence>
+  <logger>utils.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>utils.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module started</message>
+</record>
+<record>
+  <date>2023-07-02T08:49:55.235176400Z</date>
+  <millis>1688287795235</millis>
+  <nanos>176400</nanos>
+  <sequence>6</sequence>
+  <logger>utils.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>utils.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 2 statistical objects</message>
+</record>
+<record>
+  <date>2023-07-02T08:49:55.236176600Z</date>
+  <millis>1688287795236</millis>
+  <nanos>176600</nanos>
+  <sequence>7</sequence>
+  <logger>io.XlsWriter</logger>
+  <level>INFO</level>
+  <class>io.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2023-07-02T08:49:55.394676700Z</date>
+  <millis>1688287795394</millis>
+  <nanos>676700</nanos>
+  <sequence>8</sequence>
+  <logger>io.XlsWriter</logger>
+  <level>INFO</level>
+  <class>io.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T08:49:55.396676600Z</date>
+  <millis>1688287795396</millis>
+  <nanos>676600</nanos>
+  <sequence>9</sequence>
+  <logger>io.XmlWriter</logger>
+  <level>INFO</level>
+  <class>io.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling started</message>
+</record>
+<record>
+  <date>2023-07-02T08:49:55.402176400Z</date>
+  <millis>1688287795402</millis>
+  <nanos>176400</nanos>
+  <sequence>10</sequence>
+  <logger>io.XmlWriter</logger>
+  <level>SEVERE</level>
+  <class>io.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling failed</message>
+  <exception>
+    <message>javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]</message>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>newInstance</method>
+      <line>232</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>find</method>
+      <line>375</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>691</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>632</line>
+    </frame>
+    <frame>
+      <class>io.XmlWriter</class>
+      <method>generateXmlReq</method>
+      <line>28</line>
+    </frame>
+    <frame>
+      <class>boot.Main</class>
+      <method>main</method>
+      <line>60</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-07-02T08:49:55.406677Z</date>
+  <millis>1688287795406</millis>
+  <nanos>677000</nanos>
+  <sequence>11</sequence>
+  <logger>io.JsonWriter</logger>
+  <level>INFO</level>
+  <class>io.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing started</message>
+</record>
+<record>
+  <date>2023-07-02T08:49:55.462677Z</date>
+  <millis>1688287795462</millis>
+  <nanos>677000</nanos>
+  <sequence>12</sequence>
+  <logger>io.JsonWriter</logger>
+  <level>INFO</level>
+  <class>io.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T08:49:55.463676500Z</date>
+  <millis>1688287795463</millis>
+  <nanos>676500</nanos>
+  <sequence>13</sequence>
+  <logger>boot.Main</logger>
+  <level>INFO</level>
+  <class>boot.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-07-02T08:52:48.330222Z</date>
+  <millis>1688287968330</millis>
+  <nanos>222000</nanos>
+  <sequence>0</sequence>
+  <logger>boot.Main</logger>
+  <level>INFO</level>
+  <class>boot.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2023-07-02T08:52:48.372722800Z</date>
+  <millis>1688287968372</millis>
+  <nanos>722800</nanos>
+  <sequence>1</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-07-02T08:52:48.918224100Z</date>
+  <millis>1688287968918</millis>
+  <nanos>224100</nanos>
+  <sequence>2</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T08:52:48.926224600Z</date>
+  <millis>1688287968926</millis>
+  <nanos>224600</nanos>
+  <sequence>3</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-07-02T08:52:48.955225Z</date>
+  <millis>1688287968955</millis>
+  <nanos>225000</nanos>
+  <sequence>4</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T08:52:48.957725300Z</date>
+  <millis>1688287968957</millis>
+  <nanos>725300</nanos>
+  <sequence>5</sequence>
+  <logger>utils.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>utils.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module started</message>
+</record>
+<record>
+  <date>2023-07-02T08:52:48.968722800Z</date>
+  <millis>1688287968968</millis>
+  <nanos>722800</nanos>
+  <sequence>6</sequence>
+  <logger>utils.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>utils.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 2 statistical objects</message>
+</record>
+<record>
+  <date>2023-07-02T08:52:48.970724700Z</date>
+  <millis>1688287968970</millis>
+  <nanos>724700</nanos>
+  <sequence>7</sequence>
+  <logger>io.XlsWriter</logger>
+  <level>INFO</level>
+  <class>io.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2023-07-02T08:52:49.106724400Z</date>
+  <millis>1688287969106</millis>
+  <nanos>724400</nanos>
+  <sequence>8</sequence>
+  <logger>io.XlsWriter</logger>
+  <level>INFO</level>
+  <class>io.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T08:52:49.110721700Z</date>
+  <millis>1688287969110</millis>
+  <nanos>721700</nanos>
+  <sequence>9</sequence>
+  <logger>io.XmlWriter</logger>
+  <level>INFO</level>
+  <class>io.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling started</message>
+</record>
+<record>
+  <date>2023-07-02T08:52:49.115222100Z</date>
+  <millis>1688287969115</millis>
+  <nanos>222100</nanos>
+  <sequence>10</sequence>
+  <logger>io.XmlWriter</logger>
+  <level>SEVERE</level>
+  <class>io.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling failed</message>
+  <exception>
+    <message>javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]</message>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>newInstance</method>
+      <line>232</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>find</method>
+      <line>375</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>691</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>632</line>
+    </frame>
+    <frame>
+      <class>io.XmlWriter</class>
+      <method>generateXmlReq</method>
+      <line>28</line>
+    </frame>
+    <frame>
+      <class>boot.Main</class>
+      <method>main</method>
+      <line>60</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-07-02T08:52:49.117221500Z</date>
+  <millis>1688287969117</millis>
+  <nanos>221500</nanos>
+  <sequence>11</sequence>
+  <logger>io.JsonWriter</logger>
+  <level>INFO</level>
+  <class>io.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing started</message>
+</record>
+<record>
+  <date>2023-07-02T08:52:49.204221500Z</date>
+  <millis>1688287969204</millis>
+  <nanos>221500</nanos>
+  <sequence>12</sequence>
+  <logger>io.JsonWriter</logger>
+  <level>INFO</level>
+  <class>io.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T08:52:49.205223600Z</date>
+  <millis>1688287969205</millis>
+  <nanos>223600</nanos>
+  <sequence>13</sequence>
+  <logger>boot.Main</logger>
+  <level>INFO</level>
+  <class>boot.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-07-02T08:59:52.704067200Z</date>
+  <millis>1688288392704</millis>
+  <nanos>67200</nanos>
+  <sequence>0</sequence>
+  <logger>boot.Main</logger>
+  <level>INFO</level>
+  <class>boot.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2023-07-02T08:59:52.753568600Z</date>
+  <millis>1688288392753</millis>
+  <nanos>568600</nanos>
+  <sequence>1</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-07-02T08:59:53.432567800Z</date>
+  <millis>1688288393432</millis>
+  <nanos>567800</nanos>
+  <sequence>2</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T08:59:53.434566Z</date>
+  <millis>1688288393434</millis>
+  <nanos>566000</nanos>
+  <sequence>3</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-07-02T08:59:53.470065800Z</date>
+  <millis>1688288393470</millis>
+  <nanos>65800</nanos>
+  <sequence>4</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T08:59:53.471567200Z</date>
+  <millis>1688288393471</millis>
+  <nanos>567200</nanos>
+  <sequence>5</sequence>
+  <logger>utils.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>utils.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module started</message>
+</record>
+<record>
+  <date>2023-07-02T08:59:53.483566500Z</date>
+  <millis>1688288393483</millis>
+  <nanos>566500</nanos>
+  <sequence>6</sequence>
+  <logger>utils.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>utils.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 2 statistical objects</message>
+</record>
+<record>
+  <date>2023-07-02T08:59:53.485067100Z</date>
+  <millis>1688288393485</millis>
+  <nanos>67100</nanos>
+  <sequence>7</sequence>
+  <logger>io.XlsWriter</logger>
+  <level>INFO</level>
+  <class>io.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2023-07-02T08:59:53.654066100Z</date>
+  <millis>1688288393654</millis>
+  <nanos>66100</nanos>
+  <sequence>8</sequence>
+  <logger>io.XlsWriter</logger>
+  <level>INFO</level>
+  <class>io.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T08:59:53.656066900Z</date>
+  <millis>1688288393656</millis>
+  <nanos>66900</nanos>
+  <sequence>9</sequence>
+  <logger>io.XmlWriter</logger>
+  <level>INFO</level>
+  <class>io.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling started</message>
+</record>
+<record>
+  <date>2023-07-02T08:59:53.661066700Z</date>
+  <millis>1688288393661</millis>
+  <nanos>66700</nanos>
+  <sequence>10</sequence>
+  <logger>io.XmlWriter</logger>
+  <level>SEVERE</level>
+  <class>io.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling failed</message>
+  <exception>
+    <message>javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]</message>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>newInstance</method>
+      <line>232</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>find</method>
+      <line>375</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>691</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>632</line>
+    </frame>
+    <frame>
+      <class>io.XmlWriter</class>
+      <method>generateXmlReq</method>
+      <line>28</line>
+    </frame>
+    <frame>
+      <class>boot.Main</class>
+      <method>main</method>
+      <line>60</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-07-02T08:59:53.662567400Z</date>
+  <millis>1688288393662</millis>
+  <nanos>567400</nanos>
+  <sequence>11</sequence>
+  <logger>io.JsonWriter</logger>
+  <level>INFO</level>
+  <class>io.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing started</message>
+</record>
+<record>
+  <date>2023-07-02T08:59:53.717569200Z</date>
+  <millis>1688288393717</millis>
+  <nanos>569200</nanos>
+  <sequence>12</sequence>
+  <logger>io.JsonWriter</logger>
+  <level>INFO</level>
+  <class>io.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T08:59:53.718566800Z</date>
+  <millis>1688288393718</millis>
+  <nanos>566800</nanos>
+  <sequence>13</sequence>
+  <logger>boot.Main</logger>
+  <level>INFO</level>
+  <class>boot.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-07-02T09:03:23.230570100Z</date>
+  <millis>1688288603230</millis>
+  <nanos>570100</nanos>
+  <sequence>0</sequence>
+  <logger>boot.Main</logger>
+  <level>INFO</level>
+  <class>boot.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, Logger configured</message>
+</record>
+<record>
+  <date>2023-07-02T09:03:23.266068900Z</date>
+  <millis>1688288603266</millis>
+  <nanos>68900</nanos>
+  <sequence>1</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-07-02T09:03:23.846070700Z</date>
+  <millis>1688288603846</millis>
+  <nanos>70700</nanos>
+  <sequence>2</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T09:03:23.855573700Z</date>
+  <millis>1688288603855</millis>
+  <nanos>573700</nanos>
+  <sequence>3</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-07-02T09:03:23.889071900Z</date>
+  <millis>1688288603889</millis>
+  <nanos>71900</nanos>
+  <sequence>4</sequence>
+  <logger>io.XlsReader</logger>
+  <level>INFO</level>
+  <class>io.XlsReader</class>
+  <method>readXlsStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T09:03:23.893573Z</date>
+  <millis>1688288603893</millis>
+  <nanos>573000</nanos>
+  <sequence>5</sequence>
+  <logger>utils.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>utils.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module started</message>
+</record>
+<record>
+  <date>2023-07-02T09:03:23.907572800Z</date>
+  <millis>1688288603907</millis>
+  <nanos>572800</nanos>
+  <sequence>6</sequence>
+  <logger>utils.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>utils.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 2 statistical objects</message>
+</record>
+<record>
+  <date>2023-07-02T09:03:23.910070600Z</date>
+  <millis>1688288603910</millis>
+  <nanos>70600</nanos>
+  <sequence>7</sequence>
+  <logger>io.XlsWriter</logger>
+  <level>INFO</level>
+  <class>io.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2023-07-02T09:03:24.057570400Z</date>
+  <millis>1688288604057</millis>
+  <nanos>570400</nanos>
+  <sequence>8</sequence>
+  <logger>io.XlsWriter</logger>
+  <level>INFO</level>
+  <class>io.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel writing finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T09:03:24.062571400Z</date>
+  <millis>1688288604062</millis>
+  <nanos>571400</nanos>
+  <sequence>9</sequence>
+  <logger>io.XmlWriter</logger>
+  <level>INFO</level>
+  <class>io.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling started</message>
+</record>
+<record>
+  <date>2023-07-02T09:03:24.073070400Z</date>
+  <millis>1688288604073</millis>
+  <nanos>70400</nanos>
+  <sequence>10</sequence>
+  <logger>io.XmlWriter</logger>
+  <level>SEVERE</level>
+  <class>io.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling failed</message>
+  <exception>
+    <message>javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]</message>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>newInstance</method>
+      <line>232</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.ContextFinder</class>
+      <method>find</method>
+      <line>375</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>691</line>
+    </frame>
+    <frame>
+      <class>javax.xml.bind.JAXBContext</class>
+      <method>newInstance</method>
+      <line>632</line>
+    </frame>
+    <frame>
+      <class>io.XmlWriter</class>
+      <method>generateXmlReq</method>
+      <line>28</line>
+    </frame>
+    <frame>
+      <class>boot.Main</class>
+      <method>main</method>
+      <line>60</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-07-02T09:03:24.076571300Z</date>
+  <millis>1688288604076</millis>
+  <nanos>571300</nanos>
+  <sequence>11</sequence>
+  <logger>io.JsonWriter</logger>
+  <level>INFO</level>
+  <class>io.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing started</message>
+</record>
+<record>
+  <date>2023-07-02T09:03:24.137571Z</date>
+  <millis>1688288604137</millis>
+  <nanos>571000</nanos>
+  <sequence>12</sequence>
+  <logger>io.JsonWriter</logger>
+  <level>INFO</level>
+  <class>io.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing finished successfully</message>
+</record>
+<record>
+  <date>2023-07-02T09:03:24.138570600Z</date>
+  <millis>1688288604138</millis>
+  <nanos>570600</nanos>
+  <sequence>13</sequence>
+  <logger>boot.Main</logger>
+  <level>INFO</level>
+  <class>boot.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>

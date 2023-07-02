@@ -1,13 +1,38 @@
 package models;
 
+import com.google.gson.annotations.SerializedName;
 import enums.StudyProfile;
 
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlTransient;
+
+@XmlAccessorType(XmlAccessType.FIELD)
 public class University {
+
+    @SerializedName("universityId")
+    @XmlElement(name = "universityId")
     private String id;
+
+    @SerializedName("universityName")
+    @XmlElement(name = "universityName")
     private String fullName;
+
+    @SerializedName("universityShortName")
+    @XmlTransient
     private String shortName;
+
+    @SerializedName("foundation")
+    @XmlTransient
     private int yearOfFoundation;
+
+    @SerializedName("profile")
+    @XmlElement(name = "universityProfile")
     private StudyProfile mainProfile;
+
+    public University() {
+    }
 
     public String getId() {
         return id;
@@ -54,24 +79,13 @@ public class University {
         return this;
     }
 
-    public University() {
-    }
-
-    public University(String id, String fullName, String shortName, int yearOfFoundation, StudyProfile mainProfile) {
-        this.id = id;
-        this.fullName = fullName;
-        this.shortName = shortName;
-        this.yearOfFoundation = yearOfFoundation;
-        this.mainProfile = mainProfile;
-    }
-
     @Override
     public String toString() {
-        return "University" + "(" +
-                "id='" + id + '\'' +
-                ", fullName='" + fullName + '\'' +
-                ", shortName='" + shortName + '\'' +
-                ", yearOfFoundation=" + yearOfFoundation +
-                ", mainProfile=" + mainProfile.getProfileName() +  ")";
+        return String.format("id = %s, fullName = %s, shortName = %s, yearOfFoundation = %s, mainProfile = %s",
+                this.id,
+                this.fullName,
+                this.shortName,
+                this.yearOfFoundation,
+                this.mainProfile.getProfileName());
     }
 }
